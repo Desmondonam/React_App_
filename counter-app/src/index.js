@@ -1,14 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.css';
-import registerServiceWorker from "./registerServiceWorker";
-import Counter from './components/counter';
+import React from "react";
+import ReactDOM from "react-dom";
 
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
-registerServiceWorker();
+const element = <h1>Hello World</h1>;
+ReactDOM.render(element, document.getElementById('root'));
